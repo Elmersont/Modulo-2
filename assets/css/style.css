@@ -4,15 +4,13 @@ body{
 .contenedor {
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
-    height: 100vh;
+    min-height: 100vh;
 }
 .barralateral {
-    border: 1px solid red;
+    border: 1px solid #BEC1BB;
     flex-grow: 1;
 }
 .contenido {
-    border: 1px solid green;
     flex-grow: 4;
     display: flex;
     flex-direction: column;
@@ -21,17 +19,16 @@ body{
     background-color: #E8EBE4;
 }
 .perfil {
-    border: 1px solid blue;
+    border: 1px solid #BEC1BB;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
 }
 .fotonombre{
     display: flex;
     padding: 5px;
-    border: 1px solid orange;
     align-items: center;
 }
 .fotoperfil{
@@ -58,5 +55,38 @@ body{
 }
 .iconos{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #BEC1BB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.contacto{
+    border: 1px solid #BEC1BB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+}
+.fotoperfil2{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+.estado2{
+    font-size:medium;
+    margin: 0px;
+    
 }
