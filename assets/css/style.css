@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+}
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    height: 100vh;
+}
+.barralateral {
+    border: 1px solid red;
+    flex-grow: 1;
+}
+.contenido {
+    border: 1px solid green;
+    flex-grow: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+.perfil {
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.fotoperfil{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
