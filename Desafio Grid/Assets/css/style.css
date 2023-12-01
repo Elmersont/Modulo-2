@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "menu main"
+    "footer footer";
+    grid-template-columns: 1fr 4fr;
+}
+
+header{
+    grid-area: header;
+    color: aliceblue;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    min-height: 5vh;
+}
+
+menu{
+    grid-area: menu;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    min-height: 90vh;
+    align-items: center;
+    
+}
+
+footer{
+    grid-area: footer;
+    color: black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    min-height: 5vh;
+}
+
+main{
+    grid-area: main;
+    background-color: darkgray;
+    min-height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 40px;
+
+}
+.categoria{
+   font-size: larger;
+}
+
+.elementos{
+    font-size: small;
+
+}
+
+:hover.elementos p{
+    color: goldenrod;
+}
+
+.card-container{
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    height: auto;
+    background-color: white;
+    
+}
+
+.imagen1{
+    flex-grow: 20;
+    background-image: url("https://cdn.motor1.com/images/mgl/88GA3/s1/2021-bmw-g-310-r---black---front-angle.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 4;
+    flex-basis: 0;
+    flex-shrink: 1;
+}
+
+.boton{
+    background-color: darkblue;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.imagen2{
+    flex-grow: 20;
+    background-image: url("https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQxBx_Ms1KKCLmATSbHOAPKwgnxulduf_x4YIZ5YViHD4eMudxm59Yx0ELszSgoN-SF-9pCNRJgyqk9vtJU7bwR45Ha3-J9oZgLoWXIT-yrKnNNYsJaUdqGZojLWzQdymqz8_WCu16fWA&usqp=CAc");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagen3{
+    flex-grow: 20;
+    background-image: url("https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT7OzEZFo1Y4jPO-8mMUq-yAn2yGVOz7eokDCU7w9Q3rHMoorJA1IGZPcqrB1Byde7f48oKvxXjm0wHgzkoE6P16CEptllD_mp2i5yHdlWENShhdRZ69t2W2k_9qpfa5lCVSRJe&usqp=CAc");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagen4{
+    flex-grow: 20;
+    background-image: url("https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSk5k1wejBM5DVb-ei43YCONp7MfhxSVflje7tQ87Y5k-jvU1RxW2iFM3FA4BEtPsxvvogfLK-3ymdM95n2gj1aR5Q_M1bnKMMDVOjOxXHbOgldjR7siwbganYG4zoCt4s2cYY8ZQ&usqp=CAc");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
